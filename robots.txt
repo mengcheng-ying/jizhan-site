@@ -1,0 +1,13 @@
+# ===== jz.fmbly.com robots.txt =====
+# 全部爬虫：允许抓取
+User-agent: *
+Allow: /
+
+# 明确放行字节系（抖音/头条搜索）与百度
+User-agent: Bytespider
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+Sitemap: https://jz.fmbly.com/sitemap.xml
